@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	margin-top: 40px;
+	width: 292px;
+	border: 1px solid #dfe5e8;
+}
+.header{
+	height: 241px;
+	position: relative;
+
+}
+.begin{
+	line-height: 91px;
+	background-color: #f0f3f2;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #5f727f;
+}
+.tour{
+	height: 150px;
+	background-color: #b0de79;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.price{
+	font-size: 65px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+.month{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+.content{
+	background-color: #f0f3f2;
+	font-family: Myriad Pro;
+	font-size: 16px;
+}
+.sub{
+	height: 78px;
+}
+.sub ~p{
+	border-top: 1px solid #dfe5e8;
+	line-height: 46px;
+	text-align: center;
+}
+.drop{
+	color: #5f727f;
+}
+.crush{
+	color: #99a9b5;
+	text-decoration: line-through;
+}
+.fotter{
+	background-color: #f0f3f2;
+	height: 117px;
+}
+.oder{
+	width: 118px;
+	height: 40px;
+	background-color: #393d50;
+	border:none;
+	border-radius: 35px;
+	font-weight: bold;
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+
+}
+.button{
+	text-align: center;
+	padding: 30px 0 50px 0;
+}
+.fas{
+	padding-right: 10px;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	position: absolute;
+	top:-25px;
+	left: 35px;
+}
+#container:hover .oder{
+	background-color: #83bce9;
+
+}

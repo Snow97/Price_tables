@@ -106,7 +106,7 @@ li {
     text-align: center;
 }
 
-span {
+.lo-ipsu {
     font-family: 'Montserrat-Light';
 }
 
@@ -175,6 +175,8 @@ span {
     line-height: 91px;
     margin: 0px;
     text-align: center;
+    border: 1px solid #dfe5e8;
+    border-bottom: 0px;
 }
 
 .tour {
@@ -203,6 +205,9 @@ span {
     background-color: #f0f3f2;
     font-size: 16px;
     text-align: center;
+    border: 1px solid #dfe5e8;
+    border-bottom: 0px;
+    border-top: 0px;
 }
 
 .sub {
@@ -236,6 +241,8 @@ span {
     background-color: #f0f3f2;
     height: 117px;
     text-align: center;
+    border: 1px solid #dfe5e8;
+    border-top: 0px;
 }
 
 .oder {
@@ -247,24 +254,19 @@ span {
     font-family: 'Montserrat-Bold';
     font-size: 16px;
     color: #fff;
-}
-
-.button1 {
-    text-align: center;
-    padding: 30px 0 50px 0;
+    margin-top: 25px;
 }
 
 .fas {
     padding-right: 10px;
 }
 
-.button1 a {
+.fotter a {
     text-decoration: none;
     color: white;
 }
 
 .container {
-    border: 1px solid #dfe5e8;
     width: 290px;
 }
 
@@ -331,4 +333,111 @@ span {
     font-family: 'SourceSansPro-Regular';
     font-size: 14px;
     color: #99a9b5;
+}
+
+.container-two {
+    width: 362px;
+}
+
+.headerr-two {
+    height: 150px;
+    background-color: #393d50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.beginner {
+    margin: 0px;
+    color: #00bcd4;
+    font-family: 'Montserrat-Light';
+    font-size: 36px;
+}
+
+.price-pe {
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'SourceSansPro-Light';
+    font-size: 24px;
+}
+
+.pe-mo {
+    color: #99a9b5;
+}
+
+.sub-two {
+    height: 98px;
+    background-color: #ffffff;
+}
+
+.order-two {
+    border-radius: 5px;
+    width: 114px;
+    height: 36px;
+    background-color: #ffffff;
+    border: 2px solid #00bcd4;
+    color: #00bcd4;
+    margin-top: 40px;
+}
+
+.order-two a {
+    color: #00bcd4;
+}
+
+.fotter-two {
+    background-color: #ffffff;
+}
+
+.su-go-two {
+    color: #42c6da;
+}
+
+.dr-cr-two {
+    background-color: #ffffff;
+}
+
+.main-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 185px;
+}
+
+.headerr-two img {
+    position: absolute;
+    top: -35px;
+}
+
+.thbe-pr {
+    color: #5f727f;
+    font-family: 'SourceSansPro-Regular';
+    font-size: 14px;
+    margin: 0px;
+}
+
+.container-two:hover .oder {
+    background-color: #00bcd4;
+    color: #ffffff;
+}
+
+.container-two:hover .oder a {
+    color: #ffffff;
+}
+
+.container-two:hover .fotter {
+    border: 2px solid #393d50;
+    border-top: none;
+}
+
+.container-two:hover .content {
+    border: 2px solid #393d50;
+    border-top: none;
+    border-bottom: none;
+}
+
+.container-two:hover .headerr-two {
+    margin-top: -30px;
+    padding-bottom: 30px;
 }

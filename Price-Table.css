@@ -24,13 +24,17 @@ body {
 }
 
 .wrapper {
-    width: 1170px;
     margin: auto;
 }
 
 .block1 {
     background-color: #2c2e3d;
     height: 960px;
+}
+
+.block {
+    width: 1170px;
+    margin: auto;
 }
 
 .header {
@@ -63,7 +67,7 @@ li {
 .menu ul li a {
     text-decoration: none;
     color: #99a9b5;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Bold';
     font-size: 14px;
     padding: 0 20px;
 }
@@ -89,6 +93,21 @@ li {
     display: inline-block;
 }
 
+.add {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    background-image: url(anh/icon4.jpg);
+    text-align: center;
+}
+
+.cata {
+    margin-left: 6px;
+    font-family: SourceSansPro-Regular;
+    font-size: 14px;
+    color: #fff;
+}
+
 .icon ul li:nth-child(3) a img:first-child {
     padding-right: 5px;
 }
@@ -96,7 +115,7 @@ li {
 .slide img {
     margin: auto;
     display: block;
-    padding-top: 170px;
+    padding-top: 150px;
 }
 
 .pricing-slide {
@@ -104,6 +123,10 @@ li {
     font-size: 70px;
     color: #ffffff;
     text-align: center;
+}
+
+.pricing-slide .pricing {
+    font-family: 'Montserrat-Light';
 }
 
 .lo-ipsu {
@@ -172,11 +195,24 @@ li {
     color: #5f727f;
     font-size: 24px;
     font-family: 'Montserrat-Light';
-    line-height: 91px;
+    height: 91px;
     margin: 0px;
     text-align: center;
-    border: 1px solid #dfe5e8;
-    border-bottom: 0px;
+    border-style: solid;
+    border-color: #dfe5e8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.begin1 {
+    margin: 0px;
+}
+
+.be-thebe {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 16px;
+    margin: 0px;
 }
 
 .tour {
@@ -205,9 +241,44 @@ li {
     background-color: #f0f3f2;
     font-size: 16px;
     text-align: center;
-    border: 1px solid #dfe5e8;
-    border-bottom: 0px;
-    border-top: 0px;
+    border-style: solid;
+    border-color: #dfe5e8;
+}
+
+.bor-be1 {
+    border-width: 1px 0.5px 0px 1px;
+}
+
+.bor-be2 {
+    border-width: 1px 0.5px 0px 0.5px;
+}
+
+.bor-be4 {
+    border-width: 1px 1px 0px 0.5px;
+}
+
+.bor-co1 {
+    border-width: 0px 0.5px 0px 1px;
+}
+
+.bor-co2 {
+    border-width: 0px 0.5px 0px 0.5px;
+}
+
+.bor-co4 {
+    border-width: 0px 1px 0px 0.5px;
+}
+
+.bor-fo1 {
+    border-width: 0px 0.5px 1px 1px;
+}
+
+.bor-fo2 {
+    border-width: 0px 0.5px 1px 0.5px;
+}
+
+.bor-fo4 {
+    border-width: 0px 1px 1px 0.5px;
 }
 
 .sub {
@@ -232,7 +303,7 @@ li {
     text-decoration: line-through;
 }
 
-.content ul li {
+.container .content ul li {
     border-top: 1px solid #dfe5e8;
     line-height: 46px;
 }
@@ -241,8 +312,8 @@ li {
     background-color: #f0f3f2;
     height: 117px;
     text-align: center;
-    border: 1px solid #dfe5e8;
-    border-top: 0px;
+    border-style: solid;
+    border-color: #dfe5e8;
 }
 
 .oder {
@@ -303,14 +374,10 @@ li {
     background-color: #a289e8;
 }
 
-.container:hover {
-    margin: -22px 0;
-    padding-bottom: 20px;
-}
-
 .container:hover .begin {
     background-color: white;
-    padding: 10px 0;
+    margin-top: -25px;
+    padding-bottom: 25px;
 }
 
 .container:hover .content {
@@ -319,6 +386,8 @@ li {
 
 .container:hover .fotter {
     background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: -25px;
 }
 
 .su-go {
@@ -426,18 +495,29 @@ li {
     color: #ffffff;
 }
 
-.container-two:hover .fotter {
+.container-two:hover .fotter,
+.container-two:hover .content {
     border: 2px solid #393d50;
     border-top: none;
 }
 
 .container-two:hover .content {
-    border: 2px solid #393d50;
-    border-top: none;
     border-bottom: none;
 }
 
 .container-two:hover .headerr-two {
     margin-top: -30px;
     padding-bottom: 30px;
+}
+
+.container-two .content ul li {
+    line-height: 46px;
+}
+
+.container-two .content {
+    border-width: 0px 2px 0px 2px;
+}
+
+.container-two .fotter {
+    border-width: 0px 2px 2px 2px;
 }

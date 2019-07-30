@@ -96,16 +96,23 @@ li {
 .add {
     display: inline-block;
     width: 32px;
-    height: 17px;
+    line-height: 17px;
     background-image: url(anh/icon4.jpg);
     text-align: center;
-}
-
-.cata {
-    margin-left: 6px;
+    position: absolute;
+    top: 2px;
+    left: 95%;
     font-family: SourceSansPro-Regular;
     font-size: 14px;
     color: #fff;
+}
+
+.cata {
+    padding-left: 7px;
+}
+
+.icon ul li:nth-child(3) {
+    position: relative;
 }
 
 .icon ul li:nth-child(3) a img:first-child {
@@ -146,7 +153,7 @@ li {
     width: 226px;
     height: 50px;
     border-radius: 35px;
-    border: 2px solid white;
+    border: 3px solid white;
     background-color: #2c2e3d;
     margin-right: 34px;
 }
@@ -200,18 +207,17 @@ li {
     text-align: center;
     border-style: solid;
     border-color: #dfe5e8;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    position: relative;
+}
+
+.be-cen {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .begin1 {
-    margin: 0px;
-}
-
-.be-thebe {
-    font-family: 'SourceSansPro-Regular';
-    font-size: 16px;
     margin: 0px;
 }
 
@@ -376,8 +382,8 @@ li {
 
 .container:hover .begin {
     background-color: white;
-    margin-top: -25px;
-    padding-bottom: 25px;
+    margin-top: -22px;
+    padding-bottom: 22px;
 }
 
 .container:hover .content {
@@ -386,8 +392,8 @@ li {
 
 .container:hover .fotter {
     background-color: white;
-    padding-bottom: 25px;
-    margin-bottom: -25px;
+    padding-bottom: 22px;
+    margin-bottom: -22px;
 }
 
 .su-go {

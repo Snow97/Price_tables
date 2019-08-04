@@ -300,9 +300,9 @@ li {
     background-color: #7ee0bf;
 }
 
-.ma-tour,
-.container:hover .order {
-    background-color: #83bce9;
+.su-go {
+    font-weight: 300;
+    color: #3c3950;
 }
 
 .in-tour {
@@ -314,6 +314,11 @@ li {
     padding-bottom: 22px;
 }
 
+.ma-tour,
+.container:hover .order {
+    background-color: #83bce9;
+}
+
 .container:hover .content,
 .container:hover .begin,
 .container:hover .fotter {
@@ -323,9 +328,4 @@ li {
 .container:hover .fotter {
     padding-bottom: 22px;
     margin-bottom: -22px;
-}
-
-.su-go {
-    font-weight: 300;
-    color: #3c3950;
 }
